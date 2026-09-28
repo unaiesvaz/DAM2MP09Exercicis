@@ -3,10 +3,10 @@ package com.project;
 import java.util.concurrent.*;
 
 
-public class Exercici0 {
+public class Exercici0 { // Para ejecutar este ejercicio: .\run.ps1 com.project.Exercici0
 
     public static void main(String[] args) {
-        ConcurrentHashMap<String, Double> datos = new ConcurrentHashMap<>(); // Creamos un mapa vacio
+        ConcurrentHashMap<String, Double> datos = new ConcurrentHashMap<>(); // Creamos un mapa vacio, donde almacenaremos nuestros datos 
 
         ExecutorService executor = Executors.newFixedThreadPool(3); // Se encarga de gestionar varias tareas al mismo tiempo, en este caso 3
 
