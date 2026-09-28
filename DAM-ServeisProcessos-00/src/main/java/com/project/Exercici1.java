@@ -2,7 +2,7 @@ package com.project;
 
 import java.util.concurrent.CompletableFuture;
 
-public class Exercici1 { // Para ejecutar este ejercicio: .\run.ps1 com.project.Exercici0
+public class Exercici1 { // Para ejecutar este ejercicio: .\run.ps1 com.project.Exercici1
     public static void main(String[] args) { // Este ejercicio es como una cadena de tareas en la que se pasan la info de una a otra
 
         CompletableFuture<Integer> tarea1 = CompletableFuture.supplyAsync(() -> { //Esta tarea devolvera un Integer
